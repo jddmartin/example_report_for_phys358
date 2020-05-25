@@ -1,12 +1,19 @@
 % an example latex source file
-\documentclass[11pt]{article}
-\usepackage[left=1cm, top=1cm, right=3cm, bottom=1cm, marginparwidth=2cm]{geometry}
+\documentclass[11pt,usenames,dvipsnames]{article}
+\usepackage[left=3cm,top=1cm,right=3cm,bottom=1cm,marginparwidth=2cm]{geometry}
+\usepackage{siunitx}
+\usepackage{gensymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\PassOptionsToPackage{hyphens}{url}\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
 \pagestyle{empty}
+
 \begin{document}
 
 \begin{center}
   \large\textbf{PHYS 342, Spring 2020: Report 3} \\ \vspace{10 pt}
-  \textbf{Robie Hennigar (with contributions from Ali Ramadhan)} \\
+  \textbf{Robie Hennigar (with contributions from Ali Ramadhan and Jim Martin)} \\
   \normalsize ID: 13333337 \\
 \end{center}
 
@@ -29,4 +36,24 @@ I did not have time to complete part (c) of problem 8 nor any of problem (9).  I
 For the next assignment, I am going to work on one problem a day (using a fixed amount of time), to improve my long-term retention of the material, rather than waiting until closer to the deadline.
 
 I am still unsure if the magnetic vector potential has a physical interpretation or if it's just a useful mathematical construction. I would appreciate it if this was covered in the notes more clearly or if there was an assignment question addressing this.
+
+\newpage
+
+\noindent
+{\bf Some additional examples of useful latex stuff:}\\
+
+\noindent
+Example of the use of enumerated lists.  Here is my run-down of problems:
+\begin{enumerate} \itemsep0em
+\item aced this one.
+\item total dispair, took years off my life.
+\item I have a question: \textbf{why did you use $R$ (the gas constant), instead of $k$ (Boltzmann's constant) in Eq.~2 of solutions?}
+\end{enumerate}
+
+\noindent
+Example of use of urls: Here is github repo for this example:\\ \url{https://github.com/jddmartin/example_report_for_phys358_spring_2020}\\
+
+\noindent
+Examples of usage of the \verb$siunitx$ package: Planck's constant is $ \approx \SI{6.6e-34}{J \cdot s}$.  It's going to be a hot one today; we're expecting temperatures of $\SI{30}{\celsius}$.\\
+
 \end{document}
