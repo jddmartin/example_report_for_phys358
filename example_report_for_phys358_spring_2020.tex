@@ -24,7 +24,7 @@ I was able to complete problems (1) through (3) without referring to the solutio
 
 I struggled with part (d) of problem (4) because it was unclear to me how to obtain a current density here.  I was able to produce the correct answer after referring to the solutions, but I did not understand, for example, the equality made in the second line on page (3) of this solution: that $I/v = \lambda$.  A friend told me that it follows from dimensional analysis, which I now understand, but I was wondering: \textbf{ is there is any way to understand this result without resorting to dimensional analysis?}
 
-I made a silly mistake when first attempting problem (5) -- I forgot to use $\nabla$ in cylindrical coordinates. Otherwise it was an easy solve. I understand that the forms for the derivative operator in different coordinates will be provided on the midterm and final exam, otherwise I would definitely be putting this on my cheat sheet!
+I made a silly mistake when first attempting problem (5) -- I forgot to use $\nabla$ in cylindrical coordinates. Otherwise it was an easy solve. I understand that the forms for the derivative operator in different coordinates will be provided on the midterm and final exam, otherwise I would definitely be putting this form for $\nabla$ on my cheat sheet!
 
 Problem (6) provided useful experience with vector calculus identities.  However, it also made me realize that I am just not comfortable with these yet, especially when they involve the derivative operator.  After investing some time---and making a few mistakes---I was able to obtain the correct answer.  I did not understand the second part of the problem about the uniqueness of the vector potential, though.  I can understand the solutions, but I have to admit I would have never thought to add the particular choice of function to $\vec{A}$ that is done in the last few lines of the solution. Maybe the solutions can provide some motivation for this step?
 
@@ -36,7 +36,7 @@ I did not have time to complete part (c) of problem 8 nor any of problem (9).  I
 
 For the next assignment, I am going to work on one problem a day (using a fixed amount of time), to improve my long-term retention of the material, rather than waiting until closer to the deadline.
 
-I am still unsure if the magnetic vector potential has a physical interpretation or if it's just a useful mathematical construction. I would appreciate it if this was covered in the notes more clearly or if there was an assignment question addressing this.
+I am still unsure if the magnetic vector potential has a physical interpretation or if it's just a useful mathematical construction. I would appreciate it if this issue was covered in the notes more clearly or if there was a related assignment question.
 
 \newpage
 
@@ -44,7 +44,7 @@ I am still unsure if the magnetic vector potential has a physical interpretation
 {\bf Some additional examples of useful latex stuff:}\\
 
 \noindent
-Example of the use of enumerated lists.  Here is my run-down of problems:
+Example of the use of enumerated lists:  Summarizing the problems that I worked on:
 \begin{enumerate} \itemsep0em
 \item aced this one.
 \item total dispair, took years off my life.
@@ -52,9 +52,29 @@ Example of the use of enumerated lists.  Here is my run-down of problems:
 \end{enumerate}
 
 \noindent
-Example of use of urls: Here is github repo for this example:\\ \url{https://github.com/jddmartin/example_report_for_phys358_spring_2020}\\
+Example of use of urls: Here is the github repository for this example:\\ \url{https://github.com/jddmartin/example_report_for_phys358_spring_2020}\\
 
 \noindent
 Examples of usage of the \verb$siunitx$ package: Planck's constant is $ \approx \SI{6.6e-34}{J \cdot s}$.  It's going to be a hot one today; we're expecting temperatures of $\SI{30}{\celsius}$.\\
 
+\noindent
+{\bf Some common latex errors:}\\
+
+\noindent
+If you need to use the symbols: \#, \%, or, \&, you must write them as: \verb$\%$, \verb$\%$, or \verb$\&$.  i.e., include a ``backslash'' \verb$\$ in front of the symbol.  This backslash is required because these characters have a special meaning in the ``language'' of latex.\\
+
+\noindent
+{\bf Some common communication errors:}\\
+
+\noindent
+The single most important advice on technical writing that I have gotten is on usage of the word ``this''.  A nice example is given in Alley's {\em The craft of scientific writing, 4th ed. (Springer, 2018)}:
+\begin{quotation}
+No peaks occur in the olefinic region. Therefore, no significant concentration of olefinic hydrocarbons exists in fresh oil. This places an upper limit on the concentration of olefins --- no more than 0.01 percent.
+\end{quotation}
+The problem is: what does ``this'' refer to?  Quoting Alley: \textit{What does the chemist want the word ``this'' to refer to? To the last noun of the previous sentence: ``oil''? To the subject of the last sentence: ``concentration''? To the idea of the previous sentence: that no significant concentration of olefinic hydrocarbons exists? Actually, the word ``this'' in this example refers to none of these. The chemist intended the word ``this'' to refer to the lack of peaks in the olefinic region.}
+Much improved is:
+\begin{quotation}
+The chromatogram has no peaks in the olefinic region. Therefore, no significant concentration of olefinic hydrocarbons exists in fresh oil. This chromatogram finding places an upper limit on the olefin concentration --- no more than 0.01 percent.
+\end{quotation}
+To summarize: always make it explicit what the word ``this'' refers to.
 \end{document}
